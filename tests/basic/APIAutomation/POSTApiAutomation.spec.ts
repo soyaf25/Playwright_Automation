@@ -1,5 +1,7 @@
 import {test,request,expect} from "@playwright/test";
 
+//POST api automation
+
 test('verify POST api request for create booking id',async({request})=>{
     const url = "https://restful-booker.herokuapp.com/booking";
     const method = "POST";
